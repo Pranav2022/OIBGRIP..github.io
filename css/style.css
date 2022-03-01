@@ -90,8 +90,13 @@ form{
 }
 .title{
     margin: 5px 0;
-    width: 15rem;
+    width: 16rem;
     /* position: re; */
+}
+#text{
+    padding: 9px;
+    width: 15rem;
+    border-radius: 12px;
 }
 .desc{
     margin: 5px 0;
@@ -181,6 +186,11 @@ button:hover{
     }
 }
 @media (max-width:700px) {
+    #text{
+        padding: 9px;
+        width: 10rem;
+        border-radius: 12px;
+    }
     .about-section h1{
         font-size: 1.3rem;
     }
@@ -258,9 +268,10 @@ button:hover{
     form{
         width: 10rem;
     }
+     #text {
+        padding: 4px 0;
+        width: 9rem;
+        border-radius: 12px;
+    }
 }
-@media (max-width:280px){
-    /* h1{
-        font-size: 0.7em;
-    } */
-}
+
